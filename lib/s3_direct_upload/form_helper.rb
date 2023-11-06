@@ -52,7 +52,8 @@ module S3DirectUpload
           :policy => policy,
           :signature => signature,
           :success_action_status => "201",
-          'X-Requested-With' => 'xhr'
+          'X-Requested-With' => 'xhr',
+          'utf8' => '✓'
         }
       end
 
